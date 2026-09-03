@@ -161,7 +161,7 @@ For each path, record authorization, identity proofing, screening, training, acc
 
 Assess Policy Area 1, the relevant non-modernized sections, every applicable control and enhancement in the governing baseline, and every jurisdictional addition.
 
-Use [Control Families](docs/CONTROL-FAMILIES.md) as the navigation layer. Use the official policy and Requirements Companion for the actual “shall” statements, priority, sanction date, and cloud responsibility.
+Use [Control Families](CONTROL-FAMILIES.md) as the navigation layer. Use the official policy and Requirements Companion for the actual “shall” statements, priority, sanction date, and cloud responsibility.
 
 For each requirement, assign:
 
@@ -226,7 +226,7 @@ Capture:
 - effective date, expiration, and review triggers;
 - evidence package identifier.
 
-Use the [Authority Decision Record](templates/AUTHORITY-DECISION.md).
+Use the [Authority Decision Record](../templates/AUTHORITY-DECISION.md).
 
 ### Gate result
 

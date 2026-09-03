@@ -13,7 +13,7 @@ It is also how the system actually works.
 ## Start here
 
 1. Read [CJIS, Without the Fog](docs/CJIS-FIELD-GUIDE.md) once. It establishes the nouns and authority model.
-2. Use the [Compliance Framework](CJIS-COMPLIANCE-FRAMEWORK.md) to understand the gates and verdicts.
+2. Use the [Compliance Framework](docs/COMPLIANCE-FRAMEWORK.md) to understand the gates and verdicts.
 3. Copy the [System Assessment](templates/SYSTEM-ASSESSMENT.md) for the system, service, or vendor being evaluated.
 4. Work through the [Control Family Guide](docs/CONTROL-FAMILIES.md), use the [v6.1 Control Index](docs/CONTROL-INDEX.md) to find the base control, and attach evidence using the [Control Evidence Record](templates/CONTROL-EVIDENCE.md).
 5. For third parties, complete the [Vendor Questionnaire](templates/VENDOR-QUESTIONNAIRE.md).
@@ -71,6 +71,17 @@ It cannot grant access to CJI, interpret a state's private operational manuals, 
 FBI CJIS policy, federal regulation, Compact Council rules, applicable state policy, agreements, and the relevant CJIS authority govern the conclusion. O'Reilly research is used for supporting practices in GRC, RMF, auditing, cloud responsibility, identity, incident response, and third-party risk. It does not create CJIS requirements.
 
 See [Research Notes and Sources](sources/RESEARCH-NOTES.md).
+
+## Repository map
+
+| Path | Purpose |
+|---|---|
+| [`docs/`](docs/) | Durable explanatory guidance and decision logic |
+| [`sources/`](sources/) | Versioned authoritative material and acquisition manifests |
+| [`templates/`](templates/) | Assessment, evidence, vendor, and authority records |
+| [`assessments/`](assessments/) | Sanitized system-specific assessment outputs |
+| [`examples/`](examples/) | Fictional worked examples |
+| [`notes/`](notes/) | Unverified research that is not yet durable guidance |
 
 ## Disclaimer
 

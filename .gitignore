@@ -1,0 +1,15 @@
+.DS_Store
+**/.DS_Store
+
+# Local extraction and generated indexes
+tmp/
+data/generated/
+*.sqlite
+*.sqlite3
+
+# Python and JavaScript tooling
+.venv/
+__pycache__/
+*.py[cod]
+node_modules/
+
