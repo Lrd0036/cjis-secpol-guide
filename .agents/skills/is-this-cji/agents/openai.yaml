@@ -1,0 +1,4 @@
+interface:
+  display_name: "Is this CJI?"
+  short_description: "Classify data provenance, exceptions, and CJIS scope."
+  default_prompt: "Use $is-this-cji to classify the supplied sanitized item and distinguish data handling from system compliance."
