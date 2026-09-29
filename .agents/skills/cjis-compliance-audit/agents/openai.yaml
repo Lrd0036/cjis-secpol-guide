@@ -1,0 +1,4 @@
+interface:
+  display_name: "CJIS compliance audit"
+  short_description: "Evidence-based CJIS assessment using the existing gates."
+  default_prompt: "Use $cjis-compliance-audit to assess the named system and approved evidence against the applicable jurisdictional baseline."

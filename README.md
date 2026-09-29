@@ -24,6 +24,12 @@ If you have five minutes, use the [Quick Decision Guide](docs/QUICK-DECISION-GUI
 
 If you want to see the verdict logic in motion, read the [fictional cloud-service walkthrough](examples/CLOUD-SERVICE-WALKTHROUGH.md).
 
+## Agent skills
+
+Use [`cjis-compliance-audit`](.agents/skills/cjis-compliance-audit/SKILL.md) to run this framework against a named system and its evidence. Use [`is-this-cji`](.agents/skills/is-this-cji/SKILL.md) to classify a record, field, file, media item, or data flow before determining the system boundary.
+
+The skills use the existing guidance and templates, preserve the six verdicts below, and require source-backed conclusions. See [Agent Skills](docs/AGENT-SKILLS.md) for invocation, installation, evidence handling, and evaluation. Keep the complete checkout available; these skills reference the source collection rather than duplicate it.
+
 ## The answer vocabulary
 
 This repository uses six verdicts:
@@ -82,6 +88,8 @@ See [Research Notes and Sources](sources/RESEARCH-NOTES.md).
 | [`assessments/`](assessments/) | Sanitized system-specific assessment outputs |
 | [`examples/`](examples/) | Fictional worked examples |
 | [`notes/`](notes/) | Unverified research that is not yet durable guidance |
+| [`.agents/skills/`](.agents/skills/) | CJIS audit and data-classification agent skills |
+| [`tests/`](tests/) | Structural skill checks and fictional behavioral evaluation cases |
 
 ## Disclaimer
 
