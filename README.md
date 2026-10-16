@@ -22,6 +22,8 @@ It is also how the system actually works.
 
 If you have five minutes, use the [Quick Decision Guide](docs/QUICK-DECISION-GUIDE.md).
 
+If you already have a NIST-based security program, read [From NIST to CJIS](docs/FROM-NIST-TO-CJIS.md): six source-backed control comparisons, a reconciliation workflow, a fictional evidence record, and a verified subset of [v6.0-to-v6.1 changes](docs/CJIS-6.0-TO-6.1-CHANGES.md). This is a targeted companion, not a complete crosswalk.
+
 If you want to see the verdict logic in motion, read the [fictional cloud-service walkthrough](examples/CLOUD-SERVICE-WALKTHROUGH.md).
 
 ## Agent skills
