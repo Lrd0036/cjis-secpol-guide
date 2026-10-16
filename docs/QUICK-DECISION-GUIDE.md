@@ -2,6 +2,14 @@
 
 Use this when somebody asks for a fast answer. Fast does not mean fictional.
 
+These questions set assessment order, not verdict precedence. Record each
+finding and apply the framework's [final decision rule](COMPLIANCE-FRAMEWORK.md#final-decision-rule).
+An unknown or missing-evidence answer is not an instruction to stop before
+considering other supplied facts: an established applicable failure means
+`FAIL`, with unrelated uncertainties recorded separately. Do not invent a
+failure or its applicability from missing evidence. A proven isolated clean
+boundary can still be `OUT_OF_SCOPE` without assessing unrelated controls.
+
 ## 1. What exactly is being assessed?
 
 Write one sentence naming the organization, system/version, workload, deployment, jurisdiction, data, and date.
@@ -34,7 +42,8 @@ Name the audit baseline, current policy, state/local supplements, agreements, an
 
 Check information-exchange and user agreements, contracts, Security Addendum, management control, outsourcing approval, and CHRI dissemination rules as applicable.
 
-- Required authority or agreement absent: `FAIL`.
+- Required authority or agreement confirmed absent: `FAIL`.
+- Agreement not supplied, without evidence of absence or invalidity: `NOT_PROVEN`.
 - Applicability unknown: `NOT_PROVEN`.
 - Verified: continue.
 
@@ -58,7 +67,10 @@ Assess the official requirements—not merely this summary—across information 
 
 - No: `READY_FOR_AUTHORITY_REVIEW` at best.
 - Yes, in writing, with current scope and conditions: `AUTHORITY_ACCEPTED`.
-- Yes, but the system or governing facts changed: `STALE`.
+- Yes, but material changes invalidate the prior decision and reassessment is pending: `STALE` if no current failure is established. If a current applicable failure is established, report `FAIL` and record the prior acceptance as stale separately.
+
+Acceptance does not override findings from the earlier questions. After a new
+assessment is complete, report its supported new verdict.
 
 ## The sentence to give leadership
 

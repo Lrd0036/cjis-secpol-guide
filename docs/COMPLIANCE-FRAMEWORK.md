@@ -15,6 +15,9 @@ Remove any term and the conclusion changes.
 A beautifully encrypted database used for an unauthorized purpose is still unauthorized. A vendor with excellent controls but no applicable agreement is still missing the relationship that permits the work. A policy document with no operating evidence proves that somebody can write a policy document.
 
 So the framework uses gates. A later gate cannot repair a failed earlier gate.
+Gate order is assessment order, not verdict precedence: an unresolved earlier
+gate must not suppress an established applicable failure elsewhere. Use the
+[final decision rule](#final-decision-rule) to combine findings.
 
 ## Gate 0: Name the question
 
@@ -252,21 +255,44 @@ Reassess when any of these changes:
 - material incident or control failure;
 - evidence age beyond the defined cadence.
 
-Until impact analysis is complete, the prior verdict is `STALE`.
+Until impact analysis is complete, the prior verdict is `STALE`. Record that prior
+state separately from any current established failure, which remains `FAIL`.
 
 Compliance is not a trophy. It is a maintained state.
 
 ## Final decision rule
 
-The framework returns the lowest defensible state:
+The framework returns the lowest defensible state for the named boundary. This
+is not a total ranking of six labels or a first-match walk through the gates.
+Combine the available findings using these rules:
 
-```text
-prohibited or unmet requirement      -> FAIL
-unknown fact or missing evidence     -> NOT_PROVEN
-no CJI/supporting-system path        -> OUT_OF_SCOPE
-all internal gates passed            -> READY_FOR_AUTHORITY_REVIEW
-authority accepted named boundary    -> AUTHORITY_ACCEPTED
-material change invalidated result   -> STALE
-```
+1. Affirmative architecture and operating evidence proving no CJI or
+   supporting-system/access path supports `OUT_OF_SCOPE` for that isolated
+   boundary. Do not require unrelated controls to establish this exclusion or
+   extend it to other systems. Unexamined paths do not prove exclusion.
+2. An established, applicable unmet requirement or prohibited condition means
+   `FAIL`. Missing unrelated facts or evidence do not erase that failure. Do not
+   invent applicability or infer failure merely from an unavailable artifact:
+   a confirmed absent required agreement is `FAIL`; an agreement not supplied,
+   with no evidence of absence or invalidity, is `NOT_PROVEN` on that finding.
+3. When material change or expired evidence invalidates a prior conclusion and
+   reassessment is pending, report `STALE` if no current failure is established.
+   If a current applicable failure is established, report `FAIL` and record the
+   prior conclusion as stale separately. Once reassessment is complete, report
+   its supported new verdict.
+4. Otherwise, unresolved material facts, applicability, coverage, or evidence
+   mean `NOT_PROVEN`. Record these uncertainties even when an established
+   failure determines the overall verdict.
+5. A complete internal assessment with no known blocking gap supports
+   `READY_FOR_AUTHORITY_REVIEW` while authority acceptance is pending. Only a
+   verified, current written decision covering the exact boundary and satisfied
+   conditions supports `AUTHORITY_ACCEPTED`.
+
+For example, a named in-scope deployment with established authority, baseline,
+and agreements has an unexamined provider support path. Supplied operating
+evidence also affirmatively shows an applicable required logging control is
+disabled. The overall verdict is `FAIL`, with the support-path uncertainty
+recorded separately; do not stop at `NOT_PROVEN` before considering the logging
+failure. This does not establish compliance for any unexamined control.
 
 Never average a failed control into a passing score. Never convert missing evidence into partial credit. Never let a provider's marketing noun substitute for the authority's decision.
