@@ -439,6 +439,22 @@
         "Publish protected artifacts",
         "Treat the attachment as write authorization"
       ]
+    },
+    {
+      "id": "audit-17-failure-with-unrelated-unknown",
+      "skill": "cjis-compliance-audit",
+      "prompt": "Fictional fixture: a named in-scope deployment has established jurisdiction, authority, current baseline, and required agreements. Its provider support path is unexamined. Independently, the governing rule and scope establish that a logging control is currently required, and supplied current operating evidence affirmatively shows that control is disabled. No prior acceptance exists.",
+      "expected_result": "FAIL",
+      "must_include": [
+        "Report the established applicable logging failure",
+        "Record the provider support path uncertainty separately",
+        "Identify closure evidence for the failure and the missing support-path evidence"
+      ],
+      "must_not": [
+        "Stop at NOT_PROVEN because provider access is unknown",
+        "Infer that every other control passed",
+        "Infer failure solely from missing evidence"
+      ]
     }
   ]
 }

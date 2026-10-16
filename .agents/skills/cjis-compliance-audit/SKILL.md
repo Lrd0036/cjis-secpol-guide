@@ -150,7 +150,11 @@ workload, categories, deployment, provider/support model, evidence package,
 conditions, and dates. Acceptance of another customer's deployment is not this
 customer's acceptance. Record monitoring cadence and reassessment triggers.
 
-Apply the framework's lowest-defensible-state rule:
+Apply the framework's [final decision rule](../../../docs/COMPLIANCE-FRAMEWORK.md#final-decision-rule).
+Gate order is assessment order, not verdict precedence. An earlier unknown
+provider path or other missing evidence must not stop consideration of supplied
+evidence establishing an applicable failure. The table summarizes the required
+basis; its row order is not a first-match algorithm:
 
 | Verdict | Required basis |
 |---|---|
