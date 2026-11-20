@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Report a Cybersecurity Incident | Texas Cyber Command</title>
+<meta name="description" content="Report a cybersecurity incident to the Texas Cyber Command. Incident reporting, the 24/7 hotline, and response resources for Texas organizations.">
+<link rel="canonical" href="https://www.txcc.texas.gov/report-an-incident">
+<link rel="alternate" hreflang="en" href="https://www.txcc.texas.gov/report-an-incident">
+<link rel="alternate" hreflang="es" href="https://www.txcc.texas.gov/es/report-an-incident">
+<!-- Open Graph / Twitter social share -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Texas Cyber Command">
+<meta property="og:title" content="Report a Cybersecurity Incident | Texas Cyber Command">
+<meta property="og:description" content="Report a cybersecurity incident to the Texas Cyber Command. Incident reporting, the 24/7 hotline, and response resources for Texas organizations.">
+<meta property="og:url" content="https://www.txcc.texas.gov/report-an-incident">
+<meta property="og:image" content="https://www.txcc.texas.gov/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Texas Cyber Command">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Report a Cybersecurity Incident | Texas Cyber Command">
+<meta name="twitter:description" content="Report a cybersecurity incident to the Texas Cyber Command. Incident reporting, the 24/7 hotline, and response resources for Texas organizations.">
+<meta name="twitter:image" content="https://www.txcc.texas.gov/og-image.png">
+
+<!--
+================================================================================
+Texas Cyber Command — production HTML
+Self-contained static page.
+Image assets: /images/
+================================================================================
+-->
+
+<!-- Favicon -->
+<!-- Favicon: steel-blue shield with Texas -->
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/css/styles.css?v=2026-11-17l">
+</head>
+<body>
+
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<!-- ============================================================
+     INLINE TEXAS SVG SYMBOL (one definition, used throughout)
+     ============================================================ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="tx" viewBox="0 0 512 512">
+      <path d="M 156.5,39.9 L 263.0,39.9 L 263.0,119.4 L 291.0,125.9 L 329.6,136.1 L 364.6,150.5 L 396.2,148.4 L 427.7,146.4 L 457.5,156.6 L 471.8,160.7 L 473.2,203.8 L 478.5,244.7 L 482.0,285.7 L 478.5,310.3 L 448.7,330.8 L 420.7,351.3 L 385.6,369.7 L 361.1,394.3 L 357.6,429.1 L 362.9,466.0 L 355.9,472.1 L 329.6,457.8 L 294.5,451.7 L 263.0,416.8 L 240.2,379.9 L 212.2,324.6 L 182.4,312.3 L 163.1,339.0 L 147.4,349.2 L 122.9,330.8 L 93.1,289.8 L 70.3,269.3 L 49.3,248.8 L 30.0,232.4 L 30.0,224.2 L 156.5,224.2 L 156.5,119.4 L 156.5,39.9 Z"></path>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- ============================================================
+     GOV IDENTITY BAR
+     ============================================================ -->
+<!-- ============================================================
+     CYBERSECURITY TRANSITION NOTICE
+     Required notice on every page during DIR → TXCC transition.
+     ============================================================ -->
+
+<!-- ============================================================
+     SITE HEADER
+     ============================================================ -->
+<header class="site-header">
+  <div class="site-header__inner">
+    <a href="/" class="wordmark" aria-label="Texas Cyber Command — Home">
+      <img src="/images/txcc-logo.png" alt="" class="wordmark__logo">
+    </a>
+
+    <nav aria-label="Primary">
+      <ul class="site-nav">
+        <li><a href="/about">About</a></li>
+        <li><a href="/services">Services &amp; Programs</a></li>
+        <li><a href="/careers">Careers</a></li>
+        <li><a href="/resources">Resources</a></li>
+        <li><a href="/news">News</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/report-an-incident" aria-current="page" style="color:var(--txcc-red-dark); background:var(--txcc-red-50); padding:7px 13px; border-radius:2px; font-weight:600; white-space:nowrap;">Report an Incident</a></li>
+      </ul>
+    </nav>
+
+    <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-drawer">
+      <svg width="18" height="14" viewBox="0 0 18 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+        <line class="menu-toggle__icon-bar menu-toggle__icon-bar--top" x1="1" y1="2" x2="17" y2="2"></line>
+        <line class="menu-toggle__icon-bar menu-toggle__icon-bar--mid" x1="1" y1="7" x2="17" y2="7"></line>
+        <line class="menu-toggle__icon-bar menu-toggle__icon-bar--bot" x1="1" y1="12" x2="17" y2="12"></line>
+      </svg>
+      <span class="menu-toggle__label">Menu</span>
+    </button>
+  </div>
+</header>
+
+<!-- ============================================================
+     MOBILE DRAWER — slides in from the right on small screens
+     Driven by JS at the end of the page.
+     ============================================================ -->
+<div class="mobile-drawer-scrim" id="mobile-drawer-scrim" aria-hidden="true"></div>
+
+<aside class="mobile-drawer" id="mobile-drawer" aria-label="Mobile navigation" aria-hidden="true" tabindex="-1">
+  <div class="mobile-drawer__header">
+    <span class="mobile-drawer__label">Menu</span>
+    <button class="mobile-drawer__close" id="mobile-drawer-close" aria-label="Close menu">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+      </svg>
+    </button>
+  </div>
+
+  <nav class="mobile-drawer__nav" aria-label="Mobile primary">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/services">Services &amp; Programs</a></li>
+      <li><a href="/careers">Careers</a></li>
+      <li><a href="/resources">Resources</a></li>
+      <li><a href="/news">News</a></li>
+      <li><a href="/contact">Contact</a></li>
+      <li><a href="/report-an-incident" aria-current="page" style="color:var(--txcc-red); font-weight:700;">Report an Incident</a></li>
+    </ul>
+  </nav>
+
+  <div class="mobile-drawer__footer">
+    Texas Cyber Command<br>
+    An official website of the State of Texas
+  </div>
+</aside>
+
+<main id="main">
+
+  <!-- ============================================================
+       PAGE HERO
+       ============================================================ -->
+  <section class="page-hero" aria-labelledby="hero-title">
+    <div class="page-hero__inner">
+      <div class="page-hero__eyebrow">Incident Reporting &amp; Response</div>
+      <h1 class="page-hero__title" id="hero-title">
+        Report a cybersecurity incident
+      </h1>
+      <p class="page-hero__lede">
+        If your organization is experiencing a cybersecurity incident, the Texas Cyber Command is your point of contact. Our teams help state agencies and organizations across Texas prepare for, respond to, and recover from cyber threats.
+      </p>
+      <p class="hero-redirect">
+        Not a government organization? <a href="#individuals">See reporting options for individuals and the public</a>.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       PRIMARY REPORT ACTION
+       NOTE: During the DIR -> TXCC transition, the report link below
+       reuses DIR's established reporting channel. Confirm the exact
+       destination URL with DIR before launch.
+       ============================================================ -->
+  <section class="page-section" aria-labelledby="report-title">
+    <div class="container">
+      <div class="report-cta" id="report">
+        <div class="report-cta__content">
+          <div class="report-cta__eyebrow">Report now</div>
+          <h2 class="report-cta__title" id="report-title">Report an Incident</h2>
+          <p class="report-cta__text">
+            State agencies, institutions of higher education, and local 
+governments: report a confirmed or suspected cybersecurity incident 
+through the established statewide channels below. You can also <a href="#guidance">prepare with our response resources</a>.
+          </p>
+          <p class="report-cta__deadline">
+            <span class="req-tag"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="8" cy="8" r="6.2"/><path d="M8 4.6V8l2.4 1.6"/></svg>Required: 48 hours</span>
+            <span>Reporting within 48 hours of discovery is required by law, but report as soon as you can: within 24 hours is strongly encouraged, and calling the hotline satisfies the requirement. <a href="#deadlines">See all reporting deadlines</a></span>
+          </p>
+        </div>
+
+        <div class="report-cta__grid">
+          <div class="report-cta__cell">
+            <div class="report-cta__hotline-label">Incident Response Hotline</div>
+            <a class="report-cta__phone" href="tel:+18773472476">(877) 347-2476</a>
+          </div>
+          <div class="report-cta__cell">
+            <div class="report-cta__channel-name">State Agencies &amp; Higher Education</div>
+            <p class="report-cta__channel-desc">Report through the SPECTRIM portal.</p>
+            <a class="access-btn" href="https://dir.archerirm.us/Default.aspx" rel="noopener noreferrer" target="_blank">Access SPECTRIM<span class="sr-only"> (opens in new tab)</span></a>
+            <a class="report-cta__cell-link" href="#deadlines">Reporting requirements</a>
+          </div>
+          <div class="report-cta__cell">
+            <div class="report-cta__channel-name">Local Governments</div>
+            <p class="report-cta__channel-desc">Submit the Local Incident Reporting Form via Archer Engage. School districts and charter schools report under Texas Education Code Section 11.175 through the same form.</p>
+            <a class="access-btn" href="https://engage.archerirm.us/new/32ec31b7-cb95-4c18-9594-bfdb3ea776f9" rel="noopener noreferrer" target="_blank">Access Archer Engage<span class="sr-only"> (opens in new tab)</span></a>
+            <a class="report-cta__cell-link" href="#deadlines">Reporting requirements</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="section-header" style="margin-top:var(--space-8);">
+        <div class="section-eyebrow">Other ways to report</div>
+        <h2 class="section-title">Suspicious email or a cyber threat</h2>
+        <p class="section-intro">
+          These paths are open to anyone and do not require a reporting portal.
+        </p>
+      </div>
+      <div class="where-grid">
+        <article class="resource-card" id="phishing">
+          <h3 class="resource-card__title">Report a phishing email</h3>
+          <p class="resource-card__desc">
+            Forward suspected phishing emails as an attachment to <a href="mailto:phishing&#64;txcc&#46;texas&#46;gov">phishing&#64;txcc&#46;texas&#46;gov</a>. Analysts at the Network Security Operations Center (NSOC) review the message for malicious files and URLs and act to block confirmed malicious sites at the state network perimeter.
+          </p>
+        </article>
+        <article class="resource-card" id="threat-reporting">
+          <h3 class="resource-card__title">Report a cyber threat</h3>
+          <p class="resource-card__desc">
+            If you've identified a cyber threat, such as suspicious activity, indicators, or intelligence that could affect other organizations, you can submit it for research and information sharing through the Texas Information Sharing and Analysis Organization (TX-ISAO).
+          </p>
+          <a class="access-btn" href="https://dir.texas.gov/information-security/txisao" rel="noopener noreferrer" target="_blank">Report via TX-ISAO<span class="sr-only"> (opens in new tab)</span></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOR INDIVIDUALS / PRIVATE CITIZENS
+       TXCC serves government entities, not individuals. Route
+       citizens to the right outside authorities for their situation.
+       ============================================================ -->
+  <section class="page-section page-section--soft" id="individuals" aria-labelledby="individuals-title">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">For individuals</div>
+        <h2 class="section-title" id="individuals-title">Individuals and the public</h2>
+        <p class="section-intro">
+          The Texas Cyber Command provides incident response to state agencies, institutions of higher education, and local governments. It does not investigate or respond to incidents for individuals. If you are a private citizen or your personal accounts or devices are affected, these resources can help:
+        </p>
+      </div>
+      <ul class="trigger-list">
+        <li><strong>A crime in progress or immediate danger:</strong> contact your local police or call 911.</li>
+        <li><strong>Scams, fraud, or identity theft:</strong> report to the Federal Trade Commission at <a href="https://reportfraud.ftc.gov/" rel="noopener noreferrer" target="_blank" class="link-ext">ReportFraud.ftc.gov<span class="sr-only"> (opens in new tab)</span></a>, and for identity theft use <a href="https://www.identitytheft.gov/" rel="noopener noreferrer" target="_blank" class="link-ext">IdentityTheft.gov<span class="sr-only"> (opens in new tab)</span></a> for a recovery plan.</li>
+        <li><strong>Online crime, hacking, or financial loss:</strong> file a complaint with the <a href="https://www.ic3.gov/" rel="noopener noreferrer" target="_blank" class="link-ext">FBI Internet Crime Complaint Center (IC3)<span class="sr-only"> (opens in new tab)</span></a>.</li>
+      </ul>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       DEADLINES (shared, statutory)
+       ============================================================ -->
+  <section class="page-section" id="deadlines" aria-labelledby="deadlines-title">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">Your obligations</div>
+        <h2 class="section-title" id="deadlines-title">Reporting deadlines</h2>
+        <p class="section-intro">
+          The same statutory deadlines apply to state agencies, institutions of higher education, local governments, school districts, and charter schools.
+        </p>
+      </div>
+
+      <div class="deadlines deadlines--three">
+        <div class="deadline">
+          <div class="deadline__clock deadline__clock--rec"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M8.8 1.6 3.4 9.2h3.6l-.6 5.2 5.4-7.6H8.2z"/></svg>Recommended: 24 hours</div>
+          <div class="deadline__title">Tell us as soon as you can</div>
+          <p class="deadline__body">
+            The sooner the Command knows, the sooner it can help you contain the incident and warn others. Reporting within 24 hours of discovery is strongly encouraged, well ahead of the statutory deadline.
+          </p>
+        </div>
+        <div class="deadline">
+          <div class="deadline__clock"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="8" cy="8" r="6.2"/><path d="M8 4.6V8l2.4 1.6"/></svg>Required: 48 hours</div>
+          <div class="deadline__title">Report the incident</div>
+          <p class="deadline__body">
+            Reporting a security incident within 48 hours of discovery is required by law. Calling the incident response hotline satisfies this requirement.
+          </p>
+        </div>
+        <div class="deadline">
+          <div class="deadline__clock deadline__clock--follow"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><rect x="2.2" y="3.4" width="11.6" height="10.4" rx="1.4"/><path d="M2.2 6.6h11.6M5.6 1.8v2.6M10.4 1.8v2.6"/></svg>Required: 10 business days</div>
+          <div class="deadline__title">Submit the follow-up analysis</div>
+          <p class="deadline__body">
+            After eradication, closure, and recovery, submit the details of the incident and an analysis of its cause through the appropriate portal below.
+          </p>
+        </div>
+      </div>
+
+      <p style="font-size:15px; color:var(--gray-700); margin-bottom:0;"><strong style="color:var(--txcc-blue-900);">Reporting is required</strong> for incidents assessed to propagate to other systems, result in criminal violations that must be reported to law enforcement, or involve the unauthorized disclosure or modification of confidential information, such as sensitive personal information.</p>
+
+      <ul class="trigger-list">
+        <li><strong>Election data involved?</strong> Notify the <a href="https://www.sos.state.tx.us/elections/conducting/security-update.shtml" rel="noopener noreferrer" target="_blank" class="link-ext">Texas Secretary of State<span class="sr-only"> (opens in new tab)</span></a>.</li>
+        <li><strong>Breach affecting 250 or more Texans?</strong> You must also contact the <a href="https://www.texasattorneygeneral.gov/consumer-protection/data-breach-reporting" rel="noopener noreferrer" target="_blank" class="link-ext">Office of the Texas Attorney General<span class="sr-only"> (opens in new tab)</span></a>.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       RESPONSE & PREPAREDNESS + INCIDENT RESPONSE GUIDANCE
+       Document links are hosted by DIR during the transition.
+       ============================================================ -->
+  <section class="page-section page-section--soft" id="guidance" aria-labelledby="guidance-title">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">Response &amp; preparedness</div>
+        <h2 class="section-title" id="guidance-title">Incident response and preparedness resources</h2>
+        <p class="section-intro">
+          The Texas Cyber Command provides organizations with incident 
+response support, guidance, and resources before, during, and after a 
+cybersecurity incident. The guides, templates, and resources below help 
+organizations build a robust incident management and response program.
+        </p>
+      </div>
+
+      <ul class="publications-list" aria-label="Incident response guidance documents">
+
+        <li class="publication">
+          <div class="publication__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><path d="M14 2v6h6"></path><line x1="9" y1="13" x2="15" y2="13"></line><line x1="9" y1="17" x2="15" y2="17"></line></svg>
+          </div>
+          <div class="publication__body">
+            <h3 class="publication__title">Incident Response Team Redbook</h3>
+            <p class="publication__desc">Procedures, contacts, and playbooks for assembling and operating an incident response team.</p>
+            <div class="publication__actions">
+              <a href="https://dir.texas.gov/sites/default/files/2025-07/Incident%20Response%20Team%20Redbook_July%202025.pdf" class="publication__link" rel="noopener noreferrer" target="_blank">
+                <span class="publication__name link-ext">Incident Response Team Redbook</span>
+                <span class="publication__meta">PDF · 610 KB · Updated Jul&nbsp;2025</span>
+              <span class="sr-only"> (opens in new tab)</span></a>
+            </div>
+          </div>
+        </li>
+
+        <li class="publication">
+          <div class="publication__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><path d="M14 2v6h6"></path><line x1="9" y1="13" x2="15" y2="13"></line><line x1="9" y1="17" x2="15" y2="17"></line></svg>
+          </div>
+          <div class="publication__body">
+            <h3 class="publication__title">Incident Response Team Redbook Template</h3>
+            <p class="publication__desc">A starting template for building your organization's own incident response Redbook.</p>
+            <div class="publication__actions">
+              <a href="https://dir.texas.gov/sites/default/files/2025-11/Incident%20Response%20Team%20Redbook%20October%202025_TGC%20Update.pdf" class="publication__link" rel="noopener noreferrer" target="_blank">
+                <span class="publication__name link-ext">Redbook Template</span>
+                <span class="publication__meta">PDF · 638 KB · Updated Nov&nbsp;2025</span>
+              <span class="sr-only"> (opens in new tab)</span></a>
+            </div>
+          </div>
+        </li>
+
+        <li class="publication">
+          <div class="publication__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><path d="M14 2v6h6"></path><line x1="9" y1="13" x2="15" y2="13"></line><line x1="9" y1="17" x2="15" y2="17"></line></svg>
+          </div>
+          <div class="publication__body">
+            <h3 class="publication__title">The State of Texas Guide to Cybersecurity Incident Response</h3>
+            <p class="publication__desc">Procedures and plans for responding to and processing a privacy or information security incident.</p>
+            <div class="publication__actions">
+              <a href="https://dir.texas.gov/sites/default/files/The%20State%20of%20Texas%20Guide%20to%20Cybersecurity%20Incident%20Response.pdf" class="publication__link" rel="noopener noreferrer" target="_blank">
+                <span class="publication__name link-ext">Incident Response Guide</span>
+                <span class="publication__meta">PDF · 155 KB · Updated Jan&nbsp;2021</span>
+              <span class="sr-only"> (opens in new tab)</span></a>
+            </div>
+          </div>
+        </li>
+
+        <li class="publication">
+          <div class="publication__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><path d="M14 2v6h6"></path><line x1="9" y1="13" x2="15" y2="13"></line><line x1="9" y1="17" x2="15" y2="17"></line></svg>
+          </div>
+          <div class="publication__body">
+            <h3 class="publication__title">The State of Texas Guide to Cybersecurity Resources</h3>
+            <p class="publication__desc">A directory of cybersecurity resources available to Texas organizations.</p>
+            <div class="publication__actions">
+              <a href="https://dir.texas.gov/sites/default/files/2024-06/DIR%20OCISO%20Cybersecurity%20Resources.pdf" class="publication__link" rel="noopener noreferrer" target="_blank">
+                <span class="publication__name link-ext">Cybersecurity Resources Guide</span>
+                <span class="publication__meta">PDF · 137 KB · Updated Jun&nbsp;2024</span>
+              <span class="sr-only"> (opens in new tab)</span></a>
+            </div>
+          </div>
+        </li>
+
+        <li class="publication">
+          <div class="publication__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><path d="M14 2v6h6"></path><line x1="9" y1="13" x2="15" y2="13"></line><line x1="9" y1="17" x2="15" y2="17"></line></svg>
+          </div>
+          <div class="publication__body">
+            <h3 class="publication__title">Stop Ransomware Guide</h3>
+            <p class="publication__desc">Joint CISA and MS-ISAC guidance on preventing, mitigating, and responding to ransomware.</p>
+            <div class="publication__actions">
+              <a href="https://dir.texas.gov/sites/default/files/2024-01/StopRansomware-Guide-508C-v3_1.pdf" class="publication__link" rel="noopener noreferrer" target="_blank">
+                <span class="publication__name link-ext">Stop Ransomware Guide</span>
+                <span class="publication__meta">PDF · 1.03 MB · Updated Jan&nbsp;2024</span>
+              <span class="sr-only"> (opens in new tab)</span></a>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       OTHER REPORTING & COMPLAINT RESOURCES (applies to everyone)
+       ============================================================ -->
+  <section class="page-section" id="other-resources" aria-labelledby="other-title">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">Beyond Texas</div>
+        <h2 class="section-title" id="other-title">Other reporting &amp; complaint resources</h2>
+        <p class="section-intro">
+          Depending on the nature of the incident, these authorities may also accept a report.
+        </p>
+      </div>
+      <ul class="trigger-list">
+        <li><a href="https://www.dps.texas.gov/CriminalInvestigations/citecUnit.htm" rel="noopener noreferrer" target="_blank" class="link-ext">Texas DPS Computer Information Technology &amp; Electronic Crime Unit<span class="sr-only"> (opens in new tab)</span></a></li>
+        <li><a href="https://reportfraud.ftc.gov/" rel="noopener noreferrer" target="_blank" class="link-ext">Federal Trade Commission<span class="sr-only"> (opens in new tab)</span></a></li>
+        <li><a href="https://www.cisa.gov/report" rel="noopener noreferrer" target="_blank" class="link-ext">CISA incident reporting (US-CERT)<span class="sr-only"> (opens in new tab)</span></a></li>
+        <li><a href="https://www.ic3.gov/" rel="noopener noreferrer" target="_blank" class="link-ext">FBI Internet Crime Complaint Center (IC3)<span class="sr-only"> (opens in new tab)</span></a></li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="site-footer">
+  <div class="site-footer__inner">
+
+    <div class="site-footer__top">
+      <div class="site-footer__brand">
+        <div class="wordmark">
+          <img src="/images/txcc-logo.png" style="filter: brightness(0) invert(1);" alt="Texas Cyber Command" class="wordmark__logo">
+        </div>
+        <p class="site-footer__tagline">
+          The State of Texas's centralized authority for cybersecurity 
+operations, threat intelligence, incident response, and digital 
+forensics.
+        </p>
+
+        <ul class="social-links" aria-label="Follow the Texas Cyber Command on social media">
+          <li>
+            <a href="https://www.facebook.com/txcybercommand/" aria-label="Facebook" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://x.com/TXCyberCommand" aria-label="X (formerly Twitter)" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/txcybercommand" aria-label="Instagram" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="2" width="20" height="20" rx="5"></rect>
+                <circle cx="12" cy="12" r="4.5"></circle>
+                <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"></circle>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/company/txcybercommand" aria-label="LinkedIn" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.063 2.063 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@TXCyberCommand" aria-label="YouTube" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="footer-col__title">Pages</h2>
+        <ul>
+          <li><a href="/about">About</a></li>
+          <li><a href="/services">Services &amp; Programs</a></li>
+          <li><a href="/careers">Careers</a></li>
+          <li><a href="/resources">Resources</a></li>
+          <li><a href="/news">News</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="/report-an-incident">Report an Incident</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="footer-col__title">Information</h2>
+        <ul>
+          <li><a href="/cybersecurity-transition">Cybersecurity Transition</a></li>
+          <li><a href="/telework-plan">Telework Plan</a></li>
+          <li><a href="/public-information-act">Public Information Act</a></li>
+          <li><a href="/service-of-process">Service of Process</a></li>
+          <li><a href="/procurement">Doing Business with TXCC</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="footer-col__title">State of Texas</h2>
+        <ul>
+          <li><a href="https://www.texas.gov/" rel="noopener noreferrer" target="_blank" class="link-ext">Texas.gov<span class="sr-only"> (opens in new tab)</span></a></li>
+          <li><a href="https://capitol.texas.gov/tlodocs/89R/billtext/pdf/HB00150F.pdf" rel="noopener noreferrer" target="_blank" class="link-ext">House Bill 150<span class="sr-only"> (opens in new tab)</span></a></li>
+          <li><a href="https://gov.texas.gov/organization/hsgd" rel="noopener noreferrer" target="_blank" class="link-ext">Texas Homeland Security<span class="sr-only"> (opens in new tab)</span></a></li>
+          <li><a href="https://veterans.portal.texas.gov/" rel="noopener noreferrer" target="_blank" class="link-ext">Texas Veterans Portal<span class="sr-only"> (opens in new tab)</span></a></li>
+          <li><a href="https://www.tsl.texas.gov/trail/index.html" rel="noopener noreferrer" target="_blank" class="link-ext">Statewide Search (TRAIL)<span class="sr-only"> (opens in new tab)</span></a></li>
+          <li><a href="https://oig.hhs.texas.gov/reportfraud" rel="noopener noreferrer" target="_blank" class="link-ext">Report Fraud, Waste, or Abuse<span class="sr-only"> (opens in new tab)</span></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="site-footer__bottom">
+      <div>© 2026 Texas Cyber Command. All rights reserved.</div>
+      <ul class="site-footer__legal">
+        <li><a href="/privacy">Privacy &amp; Site Policies</a></li>
+        <li><a href="/accessibility">Accessibility</a></li>
+      </ul>
+    </div>
+
+  </div>
+</footer>
+
+<!-- ============================================================
+     MOBILE DRAWER — vanilla JS, no dependencies
+     Handles: open/close, escape key, scrim click, focus trap,
+     auto-close on resize above breakpoint, prevents body scroll.
+     ============================================================ -->
+<script>
+(function() {
+  'use strict';
+
+  var toggle = document.getElementById('menu-toggle');
+  var closeBtn = document.getElementById('mobile-drawer-close');
+  var drawer = document.getElementById('mobile-drawer');
+  var scrim = document.getElementById('mobile-drawer-scrim');
+  var body = document.body;
+
+  if (!toggle || !drawer || !scrim || !closeBtn) return;
+
+  // Remember the element that had focus before the drawer opened
+  // so we can restore focus when it closes.
+  var lastFocusedElement = null;
+
+  function openDrawer() {
+    lastFocusedElement = document.activeElement;
+
+    drawer.setAttribute('data-open', 'true');
+    drawer.setAttribute('aria-hidden', 'false');
+    scrim.setAttribute('data-open', 'true');
+    scrim.setAttribute('aria-hidden', 'false');
+    toggle.setAttribute('aria-expanded', 'true');
+    toggle.setAttribute('aria-label', 'Close menu');
+    body.classList.add('has-drawer-open');
+
+    // Move focus into the drawer for keyboard/screen reader users
+    setTimeout(function() {
+      closeBtn.focus();
+    }, 50);
+
+    document.addEventListener('keydown', handleKeydown);
+  }
+
+  function closeDrawer() {
+    drawer.setAttribute('data-open', 'false');
+    drawer.setAttribute('aria-hidden', 'true');
+    scrim.setAttribute('data-open', 'false');
+    scrim.setAttribute('aria-hidden', 'true');
+    toggle.setAttribute('aria-expanded', 'false');
+    toggle.setAttribute('aria-label', 'Open menu');
+    body.classList.remove('has-drawer-open');
+
+    // Restore focus to the toggle (or wherever it was)
+    if (lastFocusedElement && typeof lastFocusedElement.focus === 'function') {
+      lastFocusedElement.focus();
+    } else {
+      toggle.focus();
+    }
+
+    document.removeEventListener('keydown', handleKeydown);
+  }
+
+  function isOpen() {
+    return drawer.getAttribute('data-open') === 'true';
+  }
+
+  function handleKeydown(e) {
+    // ESC closes the drawer
+    if (e.key === 'Escape' || e.keyCode === 27) {
+      closeDrawer();
+      return;
+    }
+
+    // Simple focus trap — keep TAB cycling within the drawer
+    if (e.key === 'Tab' || e.keyCode === 9) {
+      var focusables = drawer.querySelectorAll(
+        'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])'
+      );
+      if (focusables.length === 0) return;
+
+      var first = focusables[0];
+      var last = focusables[focusables.length - 1];
+
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    }
+  }
+
+  // Wire up the events
+  toggle.addEventListener('click', function() {
+    if (isOpen()) {
+      closeDrawer();
+    } else {
+      openDrawer();
+    }
+  });
+
+  closeBtn.addEventListener('click', closeDrawer);
+  scrim.addEventListener('click', closeDrawer);
+
+  // Close any open drawer if user resizes past the mobile breakpoint
+  var resizeTimer;
+  window.addEventListener('resize', function() {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(function() {
+      if (window.innerWidth > 800 && isOpen()) {
+        closeDrawer();
+      }
+    }, 100);
+  });
+})();
+</script>
+
+</body></html>

@@ -1,5 +1,7 @@
 # Alabama CJIS Source Manifest
 
+**Historical acquisition, September 2, 2026.** Act 2026-374 took effect October 1. For the current Article 23 text, the §41-9-650 display discrepancy and the expanded primary-source collection, see the [November 19 register](alabama-2026-11-19.md) and [Alabama guide](../../docs/states/ALABAMA.md).
+
 Primary authority pages:
 
 - ALEA Criminal Justice Information Services Division: <https://www.alea.gov/sbi/criminal-justice-services>

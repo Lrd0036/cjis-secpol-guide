@@ -24,6 +24,8 @@ If you have five minutes, use the [Quick Decision Guide](docs/QUICK-DECISION-GUI
 
 If you want to see the verdict logic in motion, read the [fictional cloud-service walkthrough](examples/CLOUD-SERVICE-WALKTHROUGH.md).
 
+Start with the [Alabama](docs/states/ALABAMA.md), [Illinois](docs/states/ILLINOIS.md) or [Texas](docs/states/TEXAS.md) guide for access, contractors, background checks, incidents, audits and retention. The [state search roadmap](docs/STATE-SEARCH-ROADMAP.md) explains how to query the [five-state research data](data/state-search-pilot.json).
+
 ## Agent skills
 
 Use [`cjis-compliance-audit`](.agents/skills/cjis-compliance-audit/SKILL.md) to run this framework against a named system and its evidence. Use [`is-this-cji`](.agents/skills/is-this-cji/SKILL.md) to classify a record, field, file, media item, or data flow before determining the system boundary.
@@ -84,6 +86,7 @@ See [Research Notes and Sources](sources/RESEARCH-NOTES.md).
 |---|---|
 | [`docs/`](docs/) | Durable explanatory guidance and decision logic |
 | [`sources/`](sources/) | Versioned authoritative material and acquisition manifests |
+| [`data/`](data/) | Structured research records for state and topic lookups |
 | [`templates/`](templates/) | Assessment, evidence, vendor, and authority records |
 | [`assessments/`](assessments/) | Sanitized system-specific assessment outputs |
 | [`examples/`](examples/) | Fictional worked examples |

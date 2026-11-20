@@ -1,5 +1,7 @@
 # Texas DPS CJIS Document Manifest
 
+**Historical collection, September 2, 2026.** The [November Texas register](texas-2026-11-19.md) verifies all 14 downloads against the current index and identifies the replacement October personnel chart. Use the [Texas guide](../../docs/states/TEXAS.md) for the current provisions.
+
 Source page: <https://www.dps.texas.gov/section/crime-records/cjis-documents>
 
 Downloaded: 2026-09-02
