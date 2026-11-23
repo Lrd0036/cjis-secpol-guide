@@ -58,3 +58,7 @@ Before relying on this repository for a new assessment:
 4. Mark earlier conclusions `STALE` when a material governing fact changes.
 
 Sources move. Authority changes. The repository should notice.
+
+## NIST-to-CJIS companion
+
+The [companion source manifest](manifests/nist-to-cjis-companion.md) pins the official FBI v6.0/v6.1 policy downloads, v6.1 Requirements Companion, NIST published PDFs, and current NIST 5.2.0 OSCAL catalog used in the targeted comparison reviewed October 16, 2026. It includes hashes, exact control/page locators, claim coverage, and explicit limitations. It does not supersede jurisdiction-specific sources or establish a complete crosswalk.
